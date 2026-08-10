@@ -28,7 +28,7 @@ jobs:
         pip install -r requirements.txt
     - name: Run Python Script
       run: |
-        python extractor.py document_for_parsing.pdf
+        python extractor.py --file document_for_parsing.pdf
     
           
   
